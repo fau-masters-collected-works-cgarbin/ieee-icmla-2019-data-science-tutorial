@@ -9,5 +9,5 @@ Quick "get started" guide:
 
 1. Clone this repository
 1. `cd` to the repository's directory
-1. `pip install -r requirements`
+1. `pip install -r requirements.txt`
 1. `jupyter lab`
