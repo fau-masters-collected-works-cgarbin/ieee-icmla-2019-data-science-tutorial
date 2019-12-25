@@ -49,7 +49,7 @@ To prove (or disprove) a hypothesis, we:
 - Once we confirmed that there is a correlation, we performed a large number of experiments to check if the correlation exists by chance (with `np.random.permutation()`).
 - To make our experiments reproducible, we set a seed for the pseudorandom generator (`np.random.seed(42)`).
 
-## 4. 
+## 4. Machine learning and data science
 
 [Notebook 4](4-machine-learning-and-data-science.ipynb) uses machine learning to build a model that achieved over 80% accuracy with a few lines of code and without resorting to feature engineering or other transformations.
 
