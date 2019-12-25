@@ -48,3 +48,17 @@ To prove (or disprove) a hypothesis, we:
 - Established that there is a correlation visually (with a scatter plot) and formally (with the [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)).
 - Once we confirmed that there is a correlation, we performed a large number of experiments to check if the correlation exists by chance (with `np.random.permutation()`).
 - To make our experiments reproducible, we set a seed for the pseudorandom generator (`np.random.seed(42)`).
+
+## 4. 
+
+[Notebook 4](4-machine-learning-and-data-science.ipynb) uses machine learning to build a model that achieved over 80% accuracy with a few lines of code and without resorting to feature engineering or other transformations.
+
+Along the way we also:
+
+- Verified that the dataset is imbalanced and adjusted the code accordingly (`value_counts()`).
+- Used stratified sampling to split the dataset and preserve the class ratios (`train_test_split(..., stratify=...)`).
+- Used precision and recall to understand where the model makes mistakes (`classification_report()`).
+- Visualized the mistakes with a confusion matrix (`confusion_matrix()`).
+- Established a baseline with a simple model.
+- Switched to a more complex model, improving the baseline results.
+- Found an even better model with grid search (`GridSearchCV()`).
