@@ -12,6 +12,7 @@ Quick "get started" guide:
 1. Optional: create a [Python virtual environment](https://docs.python.org/3/tutorial/venv.html)
     1. `python3 -m venv env`
     1. `source env/bin/activate` (Windows: `env\Scripts\activate.bat`)
+    1. `python -m pip install --upgrade pip`
 1. `pip install -r requirements.txt`
 1. `jupyter lab`
 
