@@ -66,3 +66,10 @@ Along the way we also:
 - Established a baseline with a simple model.
 - Switched to a more complex model, improving the baseline results.
 - Found an even better model with grid search (`GridSearchCV()`).
+
+## More on this topic
+
+If you found this repository useful, you may also want to checkout these repositories:
+
+- [Answering Questions with Data, bridging the gap between technical analysis and stakeholders point-of-view with Jupyter notebooks](https://github.com/fau-masters-collected-works-cgarbin/intro-data-science-guest-speaker): a lecture delivered as the guest speaker for a data science at my [alma mater](https://www.fau.edu/). How to use write Python/Jupyter code that is easy to understand, easy to modify, reliable, and (within reason) is understandable by the stakeholders.
+- [Introduction to data science](https://github.com/fau-masters-collected-works-cgarbin/cap5768-introduction-to-data-science): the first formal training I had in data science, as part of my master's work. A series of assignments from the class, covering different aspects of data science.
