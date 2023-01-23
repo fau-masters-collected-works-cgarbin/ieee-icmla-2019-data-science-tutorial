@@ -49,7 +49,7 @@ To prove (or disprove) a hypothesis, we:
 - Checked for possible duplicated entries with `nunique()`.
 - Performed a domain check (a suspiciously low literacy rates), to verify if the data make sense. We found out that it matches a reliable source.
 - To make the code clearer, we split out of the dataset only the pieces of information we need and transformed some pieces of data into a more convenient format (`fertility` and `illiteracy`).
-- Established that there is a correlation visually (with a scatter plot) and formally (with the [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)).
+- Established that there is a correlation visually (with a [scatter plot](https://seaborn.pydata.org/generated/seaborn.scatterplot.html)) and formally (with the [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)).
 - Once we confirmed that there is a correlation, we performed a large number of experiments to check if the correlation exists by chance (with `np.random.permutation()`).
 - To make our experiments reproducible, we set a seed for the pseudorandom generator (`np.random.seed(42)`).
 
