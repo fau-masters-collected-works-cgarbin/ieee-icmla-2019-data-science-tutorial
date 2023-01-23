@@ -62,10 +62,10 @@ Along the way we also:
 - Verified that the dataset is imbalanced and adjusted the code accordingly (`value_counts()`).
 - Used stratified sampling to split the dataset and preserve the class ratios (`train_test_split(..., stratify=...)`).
 - Used precision and recall to understand where the model makes mistakes (`classification_report()`).
-- Visualized the mistakes with a confusion matrix (`confusion_matrix()`).
+- Visualized the mistakes with a [confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix) ([`confusion_matrix()`](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html)).
 - Established a baseline with a simple model.
 - Switched to a more complex model, improving the baseline results.
-- Found an even better model with grid search (`GridSearchCV()`).
+- Found an even better model with grid search ([`GridSearchCV()`](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)).
 
 ## More on this topic
 
