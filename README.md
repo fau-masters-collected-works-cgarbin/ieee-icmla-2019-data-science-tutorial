@@ -33,8 +33,8 @@ We used:
 
 Once we had a clean dataset, we collected enough evidence to call for action on possible gender discrimination by using:
 
-- seaborn [`distplot()`](https://seaborn.pydata.org/generated/seaborn.distplot.html) to review the distribution of dataset attributes.
-- [Box plots](https://en.wikipedia.org/wiki/Box_plot), with seaborn [`distplot()`](https://seaborn.pydata.org/generated/seaborn.boxplot.html), to inspect details of an attribute's distribution: its quartiles and outliers.
+- seaborn [`histplot()`](https://seaborn.pydata.org/generated/seaborn.histplot.html) to review the distribution of dataset attributes.
+- [Box plots](https://en.wikipedia.org/wiki/Box_plot), with seaborn [`boxplot()`](https://seaborn.pydata.org/generated/seaborn.boxplot.html), to inspect details of an attribute's distribution: its quartiles and outliers.
 - Pandas `DataFrame` [masks](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.mask.html) to filter out rows. For example, to remove employes over a certain age, or below an education level.
 - seaborn [`pairplot()`](https://seaborn.pydata.org/generated/seaborn.pairplot.html) to view the relationship of all attributes of a dataset at a glance.
 - Pandas' [`cut()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.cut.html) to bin (group) attributes into larger categories.
