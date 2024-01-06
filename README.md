@@ -1,6 +1,6 @@
 # IEEE ICMLA 2019 Data Science Tutorial
 
-Code for the 
+Code for the
 [IEEE ICMLA (International Conference on Machine Learning and Applications)](https://www.icmla-conference.org/icmla19/)
 [_The Data Science landscape: foundations, tools, and practical applications_](https://www.icmla-conference.org/icmla19/links/tutorialAM.htm)
 session.
@@ -14,7 +14,7 @@ Quick "get started" guide:
     1. `source env/bin/activate` (Windows: `env\Scripts\activate.bat`)
     1. `python -m pip install --upgrade pip`
 1. `pip install -r requirements.txt`
-1. `jupyter lab`
+1. `jupyter lab` (or use Visual Studio Code's Jupyter extension)
 
 ## 1. Exploratory data analysis (EDA)
 
